@@ -35,15 +35,7 @@ public void setPassword(String password) {
 public String toString() {
 	return "et_admin [id=" + id + ", name=" + name + ", password=" + password + "]";
 }
-@Override
-public int hashCode() {
-	final int prime = 31;
-	int result = 1;
-	result = prime * result + id;
-	result = prime * result + ((name == null) ? 0 : name.hashCode());
-	result = prime * result + ((password == null) ? 0 : password.hashCode());
-	return result;
-}
+
 @Override
 public boolean equals(Object obj) {
 	if (this == obj)
