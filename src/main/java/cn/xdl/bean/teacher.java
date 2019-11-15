@@ -6,5 +6,9 @@ public class teacher {
  private int age;
  private String sex;
  private String phone;
- 
+
+ public int getId() {
+  return id;
+ }
+
 }
