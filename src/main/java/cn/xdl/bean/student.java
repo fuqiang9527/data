@@ -4,6 +4,7 @@ public class student {
    int id;
    String name;
    int age;
+    String sex;
 public student(int id, String name, int age) {
 	super();
 	this.id = id;
