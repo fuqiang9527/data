@@ -5,6 +5,6 @@ public class teacher {
  private String name;
  private int age;
  private String sex;
- 
+ private String phone;
  
 }
